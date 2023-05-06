@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Rakkas&family=Vazirmatn:wght@500;900&display=swap");
+
+
+body,
+input {
+  font-family: "Vazirmatn", sans-serif;
+}
+
+.more-btn {
+  padding-bottom: -5rem;
+}
+
+.nav-fix {
+  padding: 0rem 10%;
+}
+
+.app-fix {
+  padding: 0rem 10%;
+}
+
+.app-fix img {
+  width: 10rem;
+}
+
+.banner-fix1 {
+  background-image: url(../images/header/intro_desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-fix2 {
+  background-image: url(../images/header/intro_mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-fix3 {
+  margin: 0 10%;
+}
+
+.banner-fix4 {
+  background-image: url(../images/banners/super-app.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.super-fix {
+  height: 20rem;
+}
+
+.cards-fix img{
+  width: 10rem;
+}
+
+@media (min-width : 992px) {
+  .cards-fix {
+    top: 90%;
+    position: absolute;
+  }
+
+  .sign-fix {
+    margin-top: 20rem;
+  }
+}
+
+@media (max-width: 1370px) {
+  .nav-fix {
+    padding: 0rem 5%;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-fix {
+    padding: 0rem 0rem;
+  }
+
+  .app-pack {
+    padding: 0px;
+  }
+
+  .banner-fix3 {
+    margin: 0 2rem;
+  }
+
+  .app-pack .h6{
+    font-size: 0.8rem !important;
+  }
+  
+}
+
+@media(max-width: 760px) {
+  .banner-fix2 {
+    height: 15rem;
+  }
+
+  .app-pack .h1 {
+    font-size: 1.5rem;
+  }
+
+  .app-pack .w-25 {
+    width: 50% !important;
+  }
+  
+}
